@@ -1,10 +1,10 @@
 import MySQLdb.connector
 
 diml_db = MySQLdb.connector.connect(
-    host="192.168.1.231",
-    user="brian",
-    passwd="Nrd^730&",
-    database="dimensionl"
+    host="######",
+    user="####",
+    passwd="####",
+    database="####"
 )
 
 diml_cursor = diml_db.cursor()
