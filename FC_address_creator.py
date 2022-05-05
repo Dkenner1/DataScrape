@@ -5,10 +5,10 @@ from queries import add_type
 from bs4 import BeautifulSoup
 
 diml_db = MySQLdb.connect(
-    host="192.168.1.231",
-    user="brian",
-    passwd="Nrd^730&",
-    database="dimensionl"
+    host="####",
+    user="###",
+    passwd="####",
+    database="####"
 )
 diml_cursor = diml_db.cursor()
 
